@@ -1,0 +1,109 @@
+{
+  "tool": "WQE7002 Scapy TCP SYN Scanner",
+  "tool_version": "1.0.0",
+  "mode": "execute",
+  "stability_verification_enabled": true,
+  "scope_id": "wqe7002-a1-standard-tcp-syn-scan-v1",
+  "option": "tcp-syn-scan",
+  "start_time_utc": "2026-11-05T07:51:29.888128+00:00",
+  "end_time_utc": "2026-11-05T07:51:30.795352+00:00",
+  "target": "172.28.70.10",
+  "interface": "eth0",
+  "source_ip": "172.28.70.2",
+  "ports": [
+    22,
+    80,
+    443,
+    8080
+  ],
+  "maximum_rate_pps": 20,
+  "maximum_attempts": 2,
+  "timeout_seconds": 1.5,
+  "syn_attempts": 8,
+  "results": [
+    {
+      "port": 22,
+      "state": "open",
+      "attempts": 2,
+      "observations": [
+        {
+          "attempt": 1,
+          "result": "open",
+          "evidence": "syn-ack"
+        },
+        {
+          "attempt": 2,
+          "result": "open",
+          "evidence": "stability-check"
+        }
+      ],
+      "verification": {
+        "status": "confirmed",
+        "second_observation": "open"
+      }
+    },
+    {
+      "port": 80,
+      "state": "open",
+      "attempts": 2,
+      "observations": [
+        {
+          "attempt": 1,
+          "result": "open",
+          "evidence": "syn-ack"
+        },
+        {
+          "attempt": 2,
+          "result": "open",
+          "evidence": "stability-check"
+        }
+      ],
+      "verification": {
+        "status": "confirmed",
+        "second_observation": "open"
+      }
+    },
+    {
+      "port": 443,
+      "state": "open",
+      "attempts": 2,
+      "observations": [
+        {
+          "attempt": 1,
+          "result": "open",
+          "evidence": "syn-ack"
+        },
+        {
+          "attempt": 2,
+          "result": "open",
+          "evidence": "stability-check"
+        }
+      ],
+      "verification": {
+        "status": "confirmed",
+        "second_observation": "open"
+      }
+    },
+    {
+      "port": 8080,
+      "state": "open",
+      "attempts": 2,
+      "observations": [
+        {
+          "attempt": 1,
+          "result": "open",
+          "evidence": "syn-ack"
+        },
+        {
+          "attempt": 2,
+          "result": "open",
+          "evidence": "stability-check"
+        }
+      ],
+      "verification": {
+        "status": "confirmed",
+        "second_observation": "open"
+      }
+    }
+  ]
+}
