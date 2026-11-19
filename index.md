@@ -67,7 +67,9 @@ My practical projects below demonstrate several of these skills through configur
 
 **Verified results:** Reception-to-CEO connectivity changed from successful to blocked, while permitted gateway communication still worked. Administration SSH access succeeded and Reception SSH access was refused. A replacement device triggered a port-security violation, while the authorised PC remained functional when restored.
 
-**Scope:** Port security was configured and tested on one access port (Fa0/13), not across every port. The detailed write-up, Packet Tracer file, and sanitised evidence screenshots will be added to the `projects/` folder.
+**Scope:** Port security was configured and tested on one access port (Fa0/13), not across every port.
+
+**[View Full Project Documentation and Evidence](https://github.com/Atb4k/cybersecurity-portfolio/tree/main/projects/enterprise-network-security)**
 
 ## Learning Journey
 
