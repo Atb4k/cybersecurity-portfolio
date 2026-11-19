@@ -26,12 +26,18 @@ As I progress through my postgraduate studies, my goal is to further strengthen 
 
 ## Technical Skills
 
-- Network configuration and security
-- Cisco Packet Tracer
-- Kali Linux
-- Nmap and network reconnaissance
-- Linux fundamentals
-- Python programming
+| Skill | Proficiency |
+|---|---|
+| Network Configuration and Troubleshooting | Working Knowledge |
+| Cisco Packet Tracer | Working Knowledge |
+| Access Control Lists (ACLs) | Working Knowledge |
+| SSH and Network Device Security | Working Knowledge |
+| Switch Port Security | Working Knowledge |
+| Kali Linux | Working Knowledge |
+| Nmap and Network Reconnaissance | Working Knowledge |
+| Linux Command Line | Working Knowledge |
+| Python Programming | Beginner |
+| Vulnerability Assessment | Beginner |
 
 ## Certifications and Training
 
