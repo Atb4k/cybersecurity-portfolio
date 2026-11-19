@@ -47,15 +47,22 @@ My practical projects below demonstrate several of these skills through configur
 
 ## Projects
 
-### Project 1: Network Reconnaissance and Vulnerability Assessment Lab
 
-**Tools:** Kali Linux, Metasploitable 2, Nmap, virtual machines, and an isolated laboratory network.
+### Project 1: Custom TCP SYN Scanner Using Python and Scapy
 
-**Objective:** Set up an authorised virtual testing environment and identify exposed network services on a deliberately vulnerable host.
+**Tools:** Python, Scapy, Docker, Linux, Nmap, Wireshark-compatible PCAP files, and Metasploitable 2.
 
-**Work performed:** Configured an isolated lab, verified connectivity, used Nmap to discover open ports and service versions, and documented findings such as FTP, SSH, HTTP, and SMB services. The activity focused on reconnaissance and understanding potential attack surfaces rather than testing unauthorised systems.
+**Objective:** Develop a custom TCP SYN port scanner to perform authorised network reconnaissance and classify TCP port states using packet responses.
 
-**Outcome:** Improved my understanding of safe network scanning, service enumeration, and the importance of validating security findings. A separate project write-up and supporting screenshots will be published in the `projects/` folder.
+**Work performed:** Developed a scanner using Python and Scapy to construct TCP SYN probes, interpret TCP responses, enforce authorised scanning limits, and produce structured JSON results.
+
+**Testing:** Validated the scanner in an isolated Docker workbench using automated tests, packet captures, and independent Nmap comparisons. Additional screenshots document a separate Metasploitable 2 laboratory demonstration.
+
+**Results:** The authorised Docker scan identified four open TCP ports. Automated testing and open-port verification were also documented.
+
+**Skills demonstrated:** Python programming, network reconnaissance, TCP/IP analysis, Scapy packet manipulation, and security testing.
+
+**[View Source Code, Documentation and Evidence](https://github.com/Atb4k/cybersecurity-portfolio/tree/main/projects/scapy-tcp-syn-scanner)**
 
 ### Project 2: Enterprise Network Design and Security Enhancement
 
