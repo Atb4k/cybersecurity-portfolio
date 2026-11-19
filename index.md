@@ -94,7 +94,7 @@ In the longer term, I hope to combine these skills with my exposure to operation
 ## Contact Information
 
 - **GitHub:** [Atb4k](https://github.com/Atb4k)
-- **LinkedIn:https://www.linkedin.com/in/aravind-soundirarajan-8963242b6/
-- **Professional email:aravindsoundir@gmail.com
+- **LinkedIn: https://www.linkedin.com/in/aravind-soundirarajan-8963242b6/
+- **Professional email: aravindsoundir@gmail.com
 
 *For privacy and security, no personal phone number, home address, or credentials are published on this site.*
