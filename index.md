@@ -1,4 +1,3 @@
-
 ---
 layout: page
 title: Cybersecurity Portfolio
@@ -6,9 +5,10 @@ title: Cybersecurity Portfolio
 
 # Welcome to My Cybersecurity Portfolio
 
-Master of Cyber Security Student | Network Security | Penetration Testing
+**Master of Cyber Security Student · Network Security · Penetration Testing**
 
 Welcome to my professional cybersecurity portfolio. This website showcases my technical skills, practical projects, and continuous learning in cybersecurity.
+
 
 ## About Me
 
