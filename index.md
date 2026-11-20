@@ -11,7 +11,7 @@ Welcome to my professional cybersecurity portfolio. This website showcases my te
 
 ## About Me
 
-I am currently pursuing a Master of Cyber Security at Universiti Malaya, with a strong interest in network security, penetration testing, and security operations.
+I am Aravind Soundirarajan, currently pursuing a Master of Cyber Security at Universiti Malaya, with a strong interest in network security, penetration testing, and security operations.
 
 My technical background includes practical experience with Cisco Packet Tracer, Kali Linux, Nmap, and virtual networking environments. Through hands-on laboratory exercises, I have developed skills in network configuration, vulnerability identification, access control, and secure network management.
 
@@ -47,6 +47,8 @@ My practical projects below demonstrate several of these skills through configur
 *Formal certifications and verification badges will be added only when earned and verified. The items above are studies and training, not claims of professional certification.*
 
 ## Projects
+
+[View a quick project overview and screenshot gallery](../projects-overview.html)
 
 
 ### Project 1: Custom TCP SYN Scanner Using Python and Scapy
@@ -91,7 +93,7 @@ I encountered a troubleshooting challenge while configuring sticky-MAC port secu
 
 One area I still find challenging is writing Python programs for cybersecurity tasks. I understand basic programming concepts, but translating networking and security requirements into reliable code requires more practice, particularly when handling different inputs and interpreting packet data. I want to become more confident in writing small, testable tools and explaining how they work.
 
-**My improvement goal is to complete and document one Python-based network analysis tool by 31 January 2027.** I will measure progress by building it for an authorised lab, testing it against at least five defined input cases, recording the results, and publishing a clear README that explains its purpose and limitations. I also plan to review my earlier labs regularly so that I can troubleshoot configurations with less reliance on step-by-step instructions. These activities will help me turn course knowledge into practical, repeatable skills.
+**My next improvement goal:** By 31 January 2027, I will evaluate my existing Scapy scanner across three authorised lab network conditions, repeat each test five times, and document the classification accuracy, timing and limitations in my project README.
 
 ## Career Objective
 
