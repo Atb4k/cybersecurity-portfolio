@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Cybersecurity portfolio featuring hands-on TCP SYN scanning with Python and Scapy, enterprise network hardening, and security research at Universiti Malaya.">
+  <meta name="theme-color" content="#08111e">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Cybersecurity Portfolio | ATB4K">
+  <meta property="og:description" content="Exploring network security through real projects, code, and documented lab evidence.">
+  <meta property="og:url" content="https://atb4k.github.io/cybersecurity-portfolio/">
+  <link rel="canonical" href="https://atb4k.github.io/cybersecurity-portfolio/">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Cybersecurity Portfolio | ATB4K</title>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <div class="scroll-progress" aria-hidden="true"><span id="scroll-progress-fill"></span></div>
+
+  <header class="site-header" id="top">
+    <nav class="nav shell" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="ATB4K portfolio home">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 28 28" width="24" height="24"><path d="M14 2.8 24.2 7v7.4c0 6.5-4.5 10.1-10.2 12-5.7-1.9-10.2-5.5-10.2-12V7L14 2.8Z" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m8.8 14 3.6 3.4 6.9-7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        <span class="brand-copy">ATB4K<span class="brand-divider">/</span><span class="brand-sub">CYBERSECURITY</span></span>
+      </a>
+      <div class="nav-links" id="primary-links">
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#training">Training</a>
+        <a class="nav-link" href="#journey">Journey</a>
+        <a class="nav-link" href="#career">Goals</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </div>
+      <div class="nav-actions">
+        <button type="button" class="icon-button theme-toggle" id="theme-toggle" aria-label="Switch to light theme" title="Toggle color theme"><svg class="theme-icon theme-moon" aria-hidden="true" viewBox="0 0 24 24" width="20" height="20"><path d="M20.2 15.7A8.5 8.5 0 0 1 8.3 3.8 8.5 8.5 0 1 0 20.2 15.7Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg><svg class="theme-icon theme-sun" aria-hidden="true" viewBox="0 0 24 24" width="20" height="20"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4m0-14.2-1.4 1.4M6.3 17.7l-1.4 1.4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></button>
+        <button type="button" class="icon-button mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="primary-links"><svg aria-hidden="true" viewBox="0 0 24 24" width="22" height="22"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="hero shell" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="status-line"><span class="status-pulse" aria-hidden="true"></span> PORTFOLIO / 2026 — 2027 <span class="status-dot" aria-hidden="true">•</span> MASTER OF CYBER SECURITY</div>
+        <h1 id="hero-title">Building networks.<br><span class="gradient-text">Securing what matters.</span></h1>
+        <p class="hero-lead">I'm a cybersecurity postgraduate at Universiti Malaya, turning network security concepts into tested projects — from a custom Scapy TCP scanner to enterprise network hardening.</p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">Explore my projects <span aria-hidden="true">↗</span></a>
+          <a href="#contact" class="btn btn-outline">Get in touch <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero-mini"><span class="mini-dash" aria-hidden="true"></span> Python / Scapy <span aria-hidden="true">·</span> Cisco IOS <span aria-hidden="true">·</span> Linux <span aria-hidden="true">·</span> Network defence</div>
+      </div>
+      <div class="hero-visual" aria-label="Illustrative terminal showing verified lab scanner results">
+        <div class="terminal">
+          <div class="terminal-chrome"><div class="terminal-dots" aria-hidden="true"><i></i><i></i><i></i></div><span>scapy_scan_results.json</span><span class="terminal-live"><span class="terminal-live-dot" aria-hidden="true"></span> RECORDED LAB</span></div>
+          <div class="terminal-body">
+            <div><span class="term-muted">$</span> <span class="term-strong">python3 scanner.py</span> <span class="term-muted">--execute</span></div>
+            <div class="term-comment">// Authorised Docker workbench · 172.28.70.10</div>
+            <div class="term-rule" aria-hidden="true"></div>
+            <div class="term-heading">PORT <span>STATE</span> <span>PROTOCOL</span></div>
+            <div class="term-line"><span>22</span><span class="term-open">● open</span><span>tcp / ssh</span></div>
+            <div class="term-line"><span>80</span><span class="term-open">● open</span><span>tcp / http</span></div>
+            <div class="term-line"><span>443</span><span class="term-open">● open</span><span>tcp / https</span></div>
+            <div class="term-line"><span>8080</span><span class="term-open">● open</span><span>tcp / http-alt</span></div>
+            <div class="term-rule" aria-hidden="true"></div>
+            <div class="term-success"><svg viewBox="0 0 20 20" aria-hidden="true" width="17" height="17"><circle cx="10" cy="10" r="8" stroke="currentColor" fill="none"/><path d="m6.5 10 2.3 2.2 4.5-4.8" stroke="currentColor" stroke-width="1.4" fill="none"/></svg> 4/4 port states matched Nmap</div>
+          </div>
+        </div>
+        <div class="terminal-caption"><span class="caption-spark" aria-hidden="true">✳</span> Real outcomes. Verified in an isolated lab.</div>
+      </div>
+      <div class="hero-stats" aria-label="Portfolio highlights">
+        <div><span class="stat-number">02</span><span class="stat-label">Documented projects</span></div>
+        <div><span class="stat-number">35</span><span class="stat-label">Scanner unit tests</span></div>
+        <div><span class="stat-number">04</span><span class="stat-label">Docker ports validated</span></div>
+      </div>
+    </section>
+
+    <section class="section section-about" id="about" aria-labelledby="about-title">
+      <div class="shell section-grid">
+        <div class="section-aside"><span class="section-index">01 / ABOUT</span><p>A little context behind the command line.</p></div>
+        <div class="section-main">
+          <div class="section-header"><span class="section-kicker">WHO I AM</span><h2 id="about-title">Curiosity, backed by practice.</h2></div>
+          <div class="prose about-prose">
+            <p>I am currently pursuing a Master of Cyber Security at Universiti Malaya, with a strong interest in network security, penetration testing, and security operations.</p>
+            <p>My technical background includes practical experience with Cisco Packet Tracer, Kali Linux, Nmap, and virtual networking environments. Through hands-on laboratory exercises, I have developed skills in network configuration, vulnerability identification, access control, and secure network management.</p>
+            <p>I have also gained professional exposure to operational technology security and identity and access management through an internship. This experience strengthened my understanding of cybersecurity challenges in professional environments.</p>
+            <p>I enjoy learning how systems and networks operate, identifying potential security weaknesses, and implementing appropriate security measures. This portfolio showcases my technical projects, practical learning experiences, and continuous development in cybersecurity.</p>
+            <p>As I progress through my postgraduate studies, my goal is to further strengthen my technical abilities and develop the skills required for a career in cybersecurity.</p>
+          </div>
+          <div class="info-strip">
+            <div><span class="info-icon" aria-hidden="true">↗</span><div><strong>Currently studying</strong><span>Master of Cyber Security · Universiti Malaya</span></div></div>
+            <div><span class="info-icon" aria-hidden="true">◇</span><div><strong>Professional exposure</strong><span>OT security &amp; identity and access management</span></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills" aria-labelledby="skills-title">
+      <div class="shell section-grid">
+        <div class="section-aside"><span class="section-index">02 / SKILLS</span><p>Tools are only useful when you understand the system.</p></div>
+        <div class="section-main">
+          <div class="section-header"><span class="section-kicker">TECHNICAL TOOLKIT</span><h2 id="skills-title">Skills in progress. Evidence in practice.</h2><p>Proficiency levels are self-assessed and linked to hands-on work, not certification claims.</p></div>
+          <div class="skill-groups">
+            <article class="skill-panel">
+              <div class="panel-head"><span class="panel-icon" aria-hidden="true">⌘</span><h3>Network defence</h3></div>
+              <div class="skill-item"><span>Network configuration &amp; troubleshooting</span><span class="skill-level">Working knowledge</span></div>
+              <div class="skill-item"><span>Cisco Packet Tracer</span><span class="skill-level">Working knowledge</span></div>
+              <div class="skill-item"><span>Access Control Lists (ACLs)</span><span class="skill-level">Working knowledge</span></div>
+              <div class="skill-item"><span>SSH &amp; device security</span><span class="skill-level">Working knowledge</span></div>
+              <div class="skill-item"><span>Switch port security</span><span class="skill-level">Working knowledge</span></div>
+            </article>
+            <article class="skill-panel">
+              <div class="panel-head"><span class="panel-icon" aria-hidden="true">&lt;/&gt;</span><h3>Security analysis &amp; coding</h3></div>
+              <div class="skill-item"><span>Kali Linux</span><span class="skill-level">Working knowledge</span></div>
+              <div class="skill-item"><span>Nmap &amp; reconnaissance</span><span class="skill-level">Working knowledge</span></div>
+              <div class="skill-item"><span>Linux command line</span><span class="skill-level">Working knowledge</span></div>
+              <div class="skill-item"><span>Python programming</span><span class="skill-level beginner">Beginner</span></div>
+              <div class="skill-item"><span>Vulnerability assessment</span><span class="skill-level beginner">Beginner</span></div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-projects" id="projects" aria-labelledby="projects-title">
+      <div class="shell">
+        <div class="section-grid project-section-head"><div class="section-aside"><span class="section-index">03 / PROJECTS</span><p>Not just what I know — what I built and tested.</p></div><div class="section-main"><div class="section-header"><span class="section-kicker">SELECTED WORK</span><h2 id="projects-title">Built in the lab.<br>Backed by evidence.</h2><p>Explore real configurations, code, screenshots, and carefully scoped results.</p></div></div></div>
+        <div class="project-grid">
+          <article class="project-card" id="project-scapy">
+            <a class="project-image" href="https://github.com/Atb4k/cybersecurity-portfolio/tree/main/projects/scapy-tcp-syn-scanner" target="_blank" rel="noopener noreferrer" aria-label="View the Custom TCP SYN Scanner project on GitHub">
+              <img src="projects/scapy-tcp-syn-scanner/evidence/screenshots/scanner-results.png" alt="Terminal screenshot showing structured TCP SYN scanner results" loading="lazy" width="780" height="480">
+              <span class="image-corner">01 / DEVELOPMENT</span>
+            </a>
+            <div class="project-content">
+              <div class="project-meta"><span>PYTHON · SCAPY · DOCKER</span><span class="project-number">01</span></div>
+              <h3>Custom TCP SYN Scanner</h3>
+              <p>Developed a bounded SYN-based scanner that matches responses to probes, classifies port states, records JSON and PCAP evidence, and checks results against Nmap.</p>
+              <div class="project-tags"><span>TCP/IP</span><span>Packet analysis</span><span>Testing</span></div>
+              <div class="project-proof"><span class="proof-icon" aria-hidden="true">✓</span><span>4/4 authorised Docker ports matched Nmap · 35 unit tests</span></div>
+              <details class="project-details"><summary>What I verified <span aria-hidden="true">+</span></summary><div><p>In the course-issued isolated workbench, ports 22, 80, 443 and 8080 were classified open and matched an independent Nmap result. A separate host-only Metasploitable 2 demonstration is documented with saved-results screenshots; its live command capture and exact scanner variant are not included.</p></div></details>
+              <div class="project-links"><a class="btn btn-small btn-primary" href="https://github.com/Atb4k/cybersecurity-portfolio/tree/main/projects/scapy-tcp-syn-scanner" target="_blank" rel="noopener noreferrer">Full case study ↗</a><a class="text-link" href="https://github.com/Atb4k/cybersecurity-portfolio/blob/main/projects/scapy-tcp-syn-scanner/src/scanner.py" target="_blank" rel="noopener noreferrer">View code →</a></div>
+            </div>
+          </article>
+          <article class="project-card" id="project-network">
+            <a class="project-image topology-image" href="https://github.com/Atb4k/cybersecurity-portfolio/tree/main/projects/enterprise-network-security" target="_blank" rel="noopener noreferrer" aria-label="View Enterprise Network Security on GitHub">
+              <img src="projects/enterprise-network-security/evidence/network-topology.png" alt="Cisco Packet Tracer multi-department enterprise network topology" loading="lazy" width="780" height="480">
+              <span class="image-corner">02 / NETWORK DEFENCE</span>
+            </a>
+            <div class="project-content">
+              <div class="project-meta"><span>CISCO IOS · PACKET TRACER</span><span class="project-number">02</span></div>
+              <h3>Enterprise Network Security</h3>
+              <p>Enhanced a simulated multi-department network using ACL segmentation, SSHv2 management restrictions and sticky-MAC port security on a selected access port.</p>
+              <div class="project-tags"><span>ACLs</span><span>SSHv2</span><span>Port security</span></div>
+              <div class="project-proof"><span class="proof-icon" aria-hidden="true">✓</span><span>Reception → CEO blocked · authorised SSH retained</span></div>
+              <details class="project-details"><summary>What I verified <span aria-hidden="true">+</span></summary><div><p>Reception-to-CEO ping changed from 4/4 replies to 0/4 after ACL configuration, while allowed traffic remained reachable. SSH access worked for an Administration PC and was refused from Reception. A replacement device triggered a violation on protected port Fa0/13.</p></div></details>
+              <div class="project-links"><a class="btn btn-small btn-primary" href="https://github.com/Atb4k/cybersecurity-portfolio/tree/main/projects/enterprise-network-security" target="_blank" rel="noopener noreferrer">Full case study ↗</a><a class="text-link" href="https://github.com/Atb4k/cybersecurity-portfolio/tree/main/projects/enterprise-network-security/evidence" target="_blank" rel="noopener noreferrer">View evidence →</a></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="training" aria-labelledby="training-title">
+      <div class="shell section-grid">
+        <div class="section-aside"><span class="section-index">04 / TRAINING</span><p>Learning is ongoing. Credentials are labelled accurately.</p></div>
+        <div class="section-main">
+          <div class="section-header"><span class="section-kicker">CERTIFICATIONS &amp; TRAINING</span><h2 id="training-title">The learning behind the work.</h2><p>These entries describe current academic and hands-on training. They are not claims of earned professional certification.</p></div>
+          <div class="training-list">
+            <div class="training-entry"><span class="training-symbol" aria-hidden="true">01</span><div><h3>Master of Cyber Security</h3><p>Universiti Malaya · Postgraduate coursework</p></div><span class="status-chip">In progress · 2026/27</span></div>
+            <div class="training-entry"><span class="training-symbol" aria-hidden="true">02</span><div><h3>Cisco Networking Academy coursework</h3><p>Routing, switching, network configuration and security labs</p></div><span class="status-chip">In progress</span></div>
+            <div class="training-entry"><span class="training-symbol" aria-hidden="true">03</span><div><h3>Hands-on security lab training</h3><p>Kali Linux, Metasploitable 2, Nmap and Packet Tracer</p></div><span class="status-chip muted-chip">Practical learning</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-journey" id="journey" aria-labelledby="journey-title">
+      <div class="shell section-grid">
+        <div class="section-aside"><span class="section-index">05 / JOURNEY</span><p>Every working system began with something that didn't work yet.</p></div>
+        <div class="section-main">
+          <div class="section-header"><span class="section-kicker">LEARNING JOURNEY</span><h2 id="journey-title">From connected to protected.</h2><p>Reflection on what I learned, where I struggled and what I'll improve next.</p></div>
+          <div class="journey-highlights">
+            <div><span class="journey-step">01</span><strong>Observe</strong><p>Verify the baseline before changing security controls.</p></div>
+            <div><span class="journey-step">02</span><strong>Secure</strong><p>Apply targeted access restrictions and test outcomes.</p></div>
+            <div><span class="journey-step">03</span><strong>Improve</strong><p>Investigate failures and document the lessons.</p></div>
+          </div>
+          <details class="reflection" open>
+            <summary><span>Full learning reflection</span><span class="reflection-toggle" aria-hidden="true">Collapse / expand <b>⌄</b></span></summary>
+            <div class="prose reflection-copy">
+              <p>Studying cybersecurity has helped me move beyond understanding what a network is and towards understanding how networks can be protected, tested, and monitored. At the beginning of my practical learning, I mainly focused on getting devices connected and ensuring that they could communicate. I now pay more attention to which connections should be allowed, which should be denied, and how to prove that a security control is working. This change in perspective has been especially important when completing network security and penetration testing laboratory activities.</p>
+              <p>One area that strengthened my understanding was access control on Cisco network devices. In my enterprise network project, I first verified that a Reception computer could communicate with a CEO computer. I then configured an extended access control list on the router to block traffic between those networks while permitting other traffic. By repeating the ping tests, I could compare the results before and after the change. This taught me that a configuration command alone is not enough: a security improvement needs measurable testing to demonstrate that it meets the intended policy without unnecessarily disrupting legitimate communication.</p>
+              <p>Another useful learning experience involved network reconnaissance with Kali Linux and Nmap in an isolated virtual lab. I used scanning results to identify ports and network services on a deliberately vulnerable target. I learned that finding an open service does not automatically prove that a system has been compromised. Instead, the findings provide evidence that needs interpretation and further authorised investigation. Working in a controlled environment also reinforced why permission, scope, and careful documentation are essential in cybersecurity practice.</p>
+              <p>I encountered a troubleshooting challenge while configuring sticky-MAC port security on an Administration switch. Initially, the switch reported that port security was enabled but had learned zero secure MAC addresses. I generated traffic from the connected PC, checked the MAC address table, and confirmed that the correct address had been learned. Later, after testing with a replacement device, the protected interface briefly showed a secure-down state because the connection had been disconnected. I rechecked the interface status, restored the correct PC connection, and confirmed successful connectivity. This experience helped me understand the value of checking interface status, learned MAC addresses, and test results rather than assuming a configuration had failed.</p>
+              <p>One area I still find challenging is writing Python programs for cybersecurity tasks. I understand basic programming concepts, but translating networking and security requirements into reliable code requires more practice, particularly when handling different inputs and interpreting packet data. I want to become more confident in writing small, testable tools and explaining how they work.</p>
+              <p><strong>My improvement goal is to complete and document one Python-based network analysis tool by 31 January 2027.</strong> I will measure progress by building it for an authorised lab, testing it against at least five defined input cases, recording the results, and publishing a clear README that explains its purpose and limitations. I also plan to review my earlier labs regularly so that I can troubleshoot configurations with less reliance on step-by-step instructions. These activities will help me turn course knowledge into practical, repeatable skills.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="career" aria-labelledby="career-title">
+      <div class="shell section-grid">
+        <div class="section-aside"><span class="section-index">06 / DIRECTION</span><p>Where I want the next iteration to lead.</p></div>
+        <div class="section-main">
+          <div class="section-header"><span class="section-kicker">CAREER OBJECTIVE</span><h2 id="career-title">Towards security operations &amp; defence.</h2></div>
+          <div class="prose career-copy">
+            <p>My career goal is to become a cybersecurity analyst, with an initial focus on security operations, network defence, and incident investigation. I am interested in understanding how attacks appear in network traffic, how security teams identify suspicious behaviour, and how organisations respond to threats. My academic training and practical work with network configuration, reconnaissance, and access controls have motivated me to develop stronger technical investigation skills.</p>
+            <p>My first step is to strengthen my networking and Linux fundamentals through continued laboratory practice and structured coursework. Second, I plan to improve my Python skills so that I can automate simple security analysis tasks and document my results. Third, I want to gain more practical exposure to security monitoring, alert triage, and incident response through safe exercises and entry-level learning opportunities.</p>
+            <p>In the longer term, I hope to combine these skills with my exposure to operational technology security and identity and access management. I aim to become a professional who can communicate technical findings clearly and recommend practical security improvements.</p>
+          </div>
+          <div class="roadmap"><div><span>01</span><p>Strengthen networking &amp; Linux</p></div><div><span>02</span><p>Build Python security tools</p></div><div><span>03</span><p>Practise alert triage &amp; incident response</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-contact" id="contact" aria-labelledby="contact-title">
+      <div class="shell">
+        <div class="contact-card">
+          <div class="contact-decor" aria-hidden="true"></div>
+          <div class="contact-content">
+            <span class="section-kicker">07 / CONTACT</span>
+            <h2 id="contact-title">Let's connect about<br><span class="gradient-text">cybersecurity.</span></h2>
+            <p>Open to professional conversations, security research and opportunities to keep learning.</p>
+            <div class="contact-actions"><a class="btn btn-primary" href="mailto:aravindsoundir@gmail.com">Send an email ↗</a><a class="btn btn-outline" href="https://www.linkedin.com/in/aravind-soundirarajan-8963242b6/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn ↗</a></div>
+            <a class="contact-email" href="mailto:aravindsoundir@gmail.com">aravindsoundir@gmail.com</a>
+          </div>
+          <div class="contact-mark" aria-hidden="true"><span>ATB</span><span>4K.</span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-layout"><span class="footer-brand">ATB4K<span> / CYBERSECURITY</span></span><span>Built for learning. Documented with care.</span><div><a href="https://github.com/Atb4k" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/aravind-soundirarajan-8963242b6/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="#top">Back to top ↑</a></div></div>
+  </footer>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
