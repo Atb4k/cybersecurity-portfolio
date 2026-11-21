@@ -1,0 +1,28 @@
+# Python temporary files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+*.key
+*.pem
+id_rsa
+id_rsa.pub
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary and log files
+*.tmp
+*.log
+*.bak
